@@ -37,32 +37,40 @@ public class PertambahanDuaAngkaFrame extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         phasil = new javax.swing.JTextField();
+        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(255, 204, 255));
         jPanel1.setLayout(new java.awt.GridBagLayout());
 
         jLabel1.setText("Angka 1");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridy = 2;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.ipadx = 18;
+        gridBagConstraints.ipady = 6;
         gridBagConstraints.insets = new java.awt.Insets(2, 10, 2, 10);
         jPanel1.add(jLabel1, gridBagConstraints);
 
         jLabel2.setText("Angka 2");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridy = 3;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.ipadx = 18;
+        gridBagConstraints.ipady = 6;
         gridBagConstraints.insets = new java.awt.Insets(2, 10, 2, 10);
         jPanel1.add(jLabel2, gridBagConstraints);
 
         jLabel3.setText("Hasil");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 2;
+        gridBagConstraints.gridy = 4;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.ipadx = 18;
+        gridBagConstraints.ipady = 6;
         gridBagConstraints.insets = new java.awt.Insets(2, 10, 2, 10);
         jPanel1.add(jLabel3, gridBagConstraints);
 
@@ -78,9 +86,11 @@ public class PertambahanDuaAngkaFrame extends javax.swing.JFrame {
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridy = 2;
         gridBagConstraints.gridwidth = 5;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.ipadx = 18;
+        gridBagConstraints.ipady = 6;
         gridBagConstraints.insets = new java.awt.Insets(2, 10, 2, 10);
         jPanel1.add(angka1, gridBagConstraints);
 
@@ -91,9 +101,11 @@ public class PertambahanDuaAngkaFrame extends javax.swing.JFrame {
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 1;
+        gridBagConstraints.gridy = 3;
         gridBagConstraints.gridwidth = 5;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.ipadx = 18;
+        gridBagConstraints.ipady = 6;
         gridBagConstraints.insets = new java.awt.Insets(2, 10, 2, 10);
         jPanel1.add(angka2, gridBagConstraints);
 
@@ -105,7 +117,9 @@ public class PertambahanDuaAngkaFrame extends javax.swing.JFrame {
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 5;
+        gridBagConstraints.gridy = 7;
+        gridBagConstraints.ipadx = 18;
+        gridBagConstraints.ipady = 6;
         gridBagConstraints.insets = new java.awt.Insets(2, 10, 2, 10);
         jPanel1.add(jButton1, gridBagConstraints);
 
@@ -117,8 +131,10 @@ public class PertambahanDuaAngkaFrame extends javax.swing.JFrame {
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 5;
+        gridBagConstraints.gridy = 7;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.ipadx = 18;
+        gridBagConstraints.ipady = 6;
         gridBagConstraints.insets = new java.awt.Insets(2, 10, 2, 10);
         jPanel1.add(jButton2, gridBagConstraints);
 
@@ -130,21 +146,34 @@ public class PertambahanDuaAngkaFrame extends javax.swing.JFrame {
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
-        gridBagConstraints.gridy = 5;
+        gridBagConstraints.gridy = 7;
         gridBagConstraints.gridwidth = 3;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.ipadx = 18;
+        gridBagConstraints.ipady = 6;
         gridBagConstraints.insets = new java.awt.Insets(2, 10, 2, 10);
         jPanel1.add(jButton3, gridBagConstraints);
 
         phasil.setEditable(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 2;
+        gridBagConstraints.gridy = 4;
         gridBagConstraints.gridwidth = 5;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.ipadx = 18;
+        gridBagConstraints.ipady = 6;
         gridBagConstraints.insets = new java.awt.Insets(2, 10, 2, 10);
         jPanel1.add(phasil, gridBagConstraints);
+
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel4.setText("Aplikasi Pertambahan Dua Angka");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridwidth = 5;
+        gridBagConstraints.ipady = 55;
+        jPanel1.add(jLabel4, gridBagConstraints);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -152,15 +181,15 @@ public class PertambahanDuaAngkaFrame extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 486, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 681, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 357, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 431, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(26, Short.MAX_VALUE))
         );
 
         pack();
@@ -253,6 +282,7 @@ public class PertambahanDuaAngkaFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField phasil;
     // End of variables declaration//GEN-END:variables
