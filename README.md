@@ -12,11 +12,9 @@
 
 ### 3. Logika Program: Penambahan dua angka, validasi input numerik
 
-### 4. Events:
-
-   -ActionListener untuk tombol Tambah, Hapus, dan Keluar
+### 4. Events: ActionListener untuk tombol Tambah, Hapus, dan Keluar
    
-   A.Tambah
+#### A.Tambah
 ```bash
    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                          
         try {
@@ -26,7 +24,7 @@
         txtHasil.setText(String.valueOf(hasil));
 ```
 
-   B.Hapus
+#### B.Hapus
   ```bash
   private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
 
@@ -37,20 +35,20 @@
     }  
 ```
 
-   C.Keluar
+#### C.Keluar
   ```bash
   private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                          
         System.exit(0);
     }                                         
   ```
-### 5. Variasi:
-  A.Gunakan JOptionPane untuk menampilkan error input
+### 5. Variasi: 
+#### A.Gunakan JOptionPane untuk menampilkan error input
 ```bash
 } catch (NumberFormatException e) {
         JOptionPane.showMessageDialog(this, "Input harus berupa angka!", "Error", JOptionPane.ERROR_MESSAGE);
     }
 ```
-  B.Implementasikan FocusListener untuk membersihkan JTextField
+#### B.Implementasikan FocusListener untuk membersihkan JTextField
 saat mendapatkan fokus.
 ```bash
     private void txtAngka1FocusGained(java.awt.event.FocusEvent evt) {                                      
@@ -58,6 +56,10 @@ saat mendapatkan fokus.
         angka1.setText("");
     }
 ```
+## Foto Aplikasi Setelah di Run
+
+ ![](https://github.com/M-Irfansyah/AplikasiPertambahanDuaAngka/blob/main/Screenshot%202024-11-04%20102122.png)
+
 ## Indikator Penilaian:
 
 | No  | Komponen         |  Persentase  |
